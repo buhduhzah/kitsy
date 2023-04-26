@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Model Viewer</title>
-</head>
-<body>
+  <title>GLB Viewer</title>
+
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@your_twitter_handle">
+  <meta name="twitter:creator" content="@your_twitter_handle">
+  <meta name="twitter:title" content="Kitsy 3D Model">
+  <meta name="twitter:description" content="A 3D model of Kitsy, viewable in a GLB viewer">
+  <meta name="twitter:image" content="https://yourwebsite.com/path/to/your/image.jpg">
+  <meta name="twitter:image:alt" content="A 3D model of Kitsy">
+
   <!-- Import the component -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
-
+</head>
+<body>
   <!-- Use it like any other HTML element -->
-  <model-viewer alt="Kitsy 3D Model" src="kitsy.glb" camera-controls auto-rotate></model-viewer>
+  <model-viewer alt="Kitsy 3D Model" src="https://raw.githubusercontent.com/buhduhzah/kitsy/main/kitsy.glb" camera-controls></model-viewer>
 </body>
 </html>
